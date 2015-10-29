@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7BF25FF1B2BCBC400B46BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF25FE1B2BCBC400B46BA6 /* main.m */; };
+		A7BF26021B2BCBC400B46BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF26011B2BCBC400B46BA6 /* AppDelegate.m */; };
+		A7BF26051B2BCBC400B46BA6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF26041B2BCBC400B46BA6 /* TableViewController.m */; };
+		A7BF26081B2BCBC400B46BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BF26061B2BCBC400B46BA6 /* Main.storyboard */; };
+		A7BF260A1B2BCBC400B46BA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF26091B2BCBC400B46BA6 /* Images.xcassets */; };
+		A7BF260D1B2BCBC400B46BA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BF260B1B2BCBC400B46BA6 /* LaunchScreen.xib */; };
+		A7BF26191B2BCBC400B46BA6 /* _6_MicroBlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF26181B2BCBC400B46BA6 /* _6_MicroBlogTests.m */; };
+		A7BF26291B2BCC1A00B46BA6 /* MicroBlog.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF26281B2BCC1A00B46BA6 /* MicroBlog.m */; };
+		A7BF262C1B2BCC2600B46BA6 /* MicroBlogFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF262B1B2BCC2600B46BA6 /* MicroBlogFrame.m */; };
+		A7BF262F1B2BCC4400B46BA6 /* MicroBlogViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF262E1B2BCC4400B46BA6 /* MicroBlogViewCell.m */; };
+		A7BF26311B2BCD5500B46BA6 /* MicroBlogs.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7BF26301B2BCD5500B46BA6 /* MicroBlogs.plist */; };
+		A7BF263F1B2BCE2300B46BA6 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF26331B2BCE2300B46BA6 /* 1.jpeg */; };
+		A7BF26401B2BCE2300B46BA6 /* 1516159990.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF26341B2BCE2300B46BA6 /* 1516159990.jpeg */; };
+		A7BF26411B2BCE2300B46BA6 /* 238221586.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF26351B2BCE2300B46BA6 /* 238221586.jpeg */; };
+		A7BF26421B2BCE2300B46BA6 /* 424324.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF26361B2BCE2300B46BA6 /* 424324.jpeg */; };
+		A7BF26431B2BCE2300B46BA6 /* 50.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF26371B2BCE2300B46BA6 /* 50.jpeg */; };
+		A7BF26441B2BCE2300B46BA6 /* 7735164184.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF26381B2BCE2300B46BA6 /* 7735164184.jpeg */; };
+		A7BF26451B2BCE2300B46BA6 /* 3461756566.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF263A1B2BCE2300B46BA6 /* 3461756566.jpeg */; };
+		A7BF26461B2BCE2300B46BA6 /* 4934348604.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF263B1B2BCE2300B46BA6 /* 4934348604.jpeg */; };
+		A7BF26471B2BCE2300B46BA6 /* 603564546.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF263C1B2BCE2300B46BA6 /* 603564546.jpeg */; };
+		A7BF26481B2BCE2300B46BA6 /* 6289891986.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF263D1B2BCE2300B46BA6 /* 6289891986.jpeg */; };
+		A7BF26491B2BCE2300B46BA6 /* 926680527.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7BF263E1B2BCE2300B46BA6 /* 926680527.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7BF26131B2BCBC400B46BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BF25F11B2BCBC400B46BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BF25F81B2BCBC400B46BA6;
+			remoteInfo = "26-MicroBlog";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7BF25F91B2BCBC400B46BA6 /* 26-MicroBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "26-MicroBlog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BF25FD1B2BCBC400B46BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BF25FE1B2BCBC400B46BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7BF26001B2BCBC400B46BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7BF26011B2BCBC400B46BA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7BF26031B2BCBC400B46BA6 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A7BF26041B2BCBC400B46BA6 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A7BF26071B2BCBC400B46BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7BF26091B2BCBC400B46BA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7BF260C1B2BCBC400B46BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7BF26121B2BCBC400B46BA6 /* 26-MicroBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "26-MicroBlogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BF26171B2BCBC400B46BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BF26181B2BCBC400B46BA6 /* _6_MicroBlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_MicroBlogTests.m; sourceTree = "<group>"; };
+		A7BF26271B2BCC1A00B46BA6 /* MicroBlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroBlog.h; sourceTree = "<group>"; };
+		A7BF26281B2BCC1A00B46BA6 /* MicroBlog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroBlog.m; sourceTree = "<group>"; };
+		A7BF262A1B2BCC2600B46BA6 /* MicroBlogFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroBlogFrame.h; sourceTree = "<group>"; };
+		A7BF262B1B2BCC2600B46BA6 /* MicroBlogFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroBlogFrame.m; sourceTree = "<group>"; };
+		A7BF262D1B2BCC4400B46BA6 /* MicroBlogViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroBlogViewCell.h; sourceTree = "<group>"; };
+		A7BF262E1B2BCC4400B46BA6 /* MicroBlogViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroBlogViewCell.m; sourceTree = "<group>"; };
+		A7BF26301B2BCD5500B46BA6 /* MicroBlogs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MicroBlogs.plist; sourceTree = "<group>"; };
+		A7BF26331B2BCE2300B46BA6 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		A7BF26341B2BCE2300B46BA6 /* 1516159990.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1516159990.jpeg; sourceTree = "<group>"; };
+		A7BF26351B2BCE2300B46BA6 /* 238221586.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 238221586.jpeg; sourceTree = "<group>"; };
+		A7BF26361B2BCE2300B46BA6 /* 424324.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 424324.jpeg; sourceTree = "<group>"; };
+		A7BF26371B2BCE2300B46BA6 /* 50.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50.jpeg; sourceTree = "<group>"; };
+		A7BF26381B2BCE2300B46BA6 /* 7735164184.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7735164184.jpeg; sourceTree = "<group>"; };
+		A7BF263A1B2BCE2300B46BA6 /* 3461756566.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3461756566.jpeg; sourceTree = "<group>"; };
+		A7BF263B1B2BCE2300B46BA6 /* 4934348604.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4934348604.jpeg; sourceTree = "<group>"; };
+		A7BF263C1B2BCE2300B46BA6 /* 603564546.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 603564546.jpeg; sourceTree = "<group>"; };
+		A7BF263D1B2BCE2300B46BA6 /* 6289891986.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6289891986.jpeg; sourceTree = "<group>"; };
+		A7BF263E1B2BCE2300B46BA6 /* 926680527.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 926680527.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7BF25F61B2BCBC400B46BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BF260F1B2BCBC400B46BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7BF25F01B2BCBC400B46BA6 = {
+			isa = PBXGroup;
+			children = (
+				A7BF25FB1B2BCBC400B46BA6 /* 26-MicroBlog */,
+				A7BF26151B2BCBC400B46BA6 /* 26-MicroBlogTests */,
+				A7BF25FA1B2BCBC400B46BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7BF25FA1B2BCBC400B46BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF25F91B2BCBC400B46BA6 /* 26-MicroBlog.app */,
+				A7BF26121B2BCBC400B46BA6 /* 26-MicroBlogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7BF25FB1B2BCBC400B46BA6 /* 26-MicroBlog */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF26221B2BCBE600B46BA6 /* Classes */,
+				A7BF26061B2BCBC400B46BA6 /* Main.storyboard */,
+				A7BF26091B2BCBC400B46BA6 /* Images.xcassets */,
+				A7BF260B1B2BCBC400B46BA6 /* LaunchScreen.xib */,
+				A7BF25FC1B2BCBC400B46BA6 /* Supporting Files */,
+			);
+			path = "26-MicroBlog";
+			sourceTree = "<group>";
+		};
+		A7BF25FC1B2BCBC400B46BA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF26321B2BCE2300B46BA6 /* icon */,
+				A7BF26391B2BCE2300B46BA6 /* image */,
+				A7BF26301B2BCD5500B46BA6 /* MicroBlogs.plist */,
+				A7BF25FD1B2BCBC400B46BA6 /* Info.plist */,
+				A7BF25FE1B2BCBC400B46BA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7BF26151B2BCBC400B46BA6 /* 26-MicroBlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF26181B2BCBC400B46BA6 /* _6_MicroBlogTests.m */,
+				A7BF26161B2BCBC400B46BA6 /* Supporting Files */,
+			);
+			path = "26-MicroBlogTests";
+			sourceTree = "<group>";
+		};
+		A7BF26161B2BCBC400B46BA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF26171B2BCBC400B46BA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7BF26221B2BCBE600B46BA6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF26261B2BCBFD00B46BA6 /* Other */,
+				A7BF26251B2BCBFA00B46BA6 /* Model */,
+				A7BF26241B2BCBF600B46BA6 /* View */,
+				A7BF26231B2BCBEC00B46BA6 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A7BF26231B2BCBEC00B46BA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF26031B2BCBC400B46BA6 /* TableViewController.h */,
+				A7BF26041B2BCBC400B46BA6 /* TableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A7BF26241B2BCBF600B46BA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF262D1B2BCC4400B46BA6 /* MicroBlogViewCell.h */,
+				A7BF262E1B2BCC4400B46BA6 /* MicroBlogViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A7BF26251B2BCBFA00B46BA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF26271B2BCC1A00B46BA6 /* MicroBlog.h */,
+				A7BF26281B2BCC1A00B46BA6 /* MicroBlog.m */,
+				A7BF262A1B2BCC2600B46BA6 /* MicroBlogFrame.h */,
+				A7BF262B1B2BCC2600B46BA6 /* MicroBlogFrame.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7BF26261B2BCBFD00B46BA6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF26001B2BCBC400B46BA6 /* AppDelegate.h */,
+				A7BF26011B2BCBC400B46BA6 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		A7BF26321B2BCE2300B46BA6 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF26331B2BCE2300B46BA6 /* 1.jpeg */,
+				A7BF26341B2BCE2300B46BA6 /* 1516159990.jpeg */,
+				A7BF26351B2BCE2300B46BA6 /* 238221586.jpeg */,
+				A7BF26361B2BCE2300B46BA6 /* 424324.jpeg */,
+				A7BF26371B2BCE2300B46BA6 /* 50.jpeg */,
+				A7BF26381B2BCE2300B46BA6 /* 7735164184.jpeg */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		A7BF26391B2BCE2300B46BA6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF263A1B2BCE2300B46BA6 /* 3461756566.jpeg */,
+				A7BF263B1B2BCE2300B46BA6 /* 4934348604.jpeg */,
+				A7BF263C1B2BCE2300B46BA6 /* 603564546.jpeg */,
+				A7BF263D1B2BCE2300B46BA6 /* 6289891986.jpeg */,
+				A7BF263E1B2BCE2300B46BA6 /* 926680527.jpeg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7BF25F81B2BCBC400B46BA6 /* 26-MicroBlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BF261C1B2BCBC400B46BA6 /* Build configuration list for PBXNativeTarget "26-MicroBlog" */;
+			buildPhases = (
+				A7BF25F51B2BCBC400B46BA6 /* Sources */,
+				A7BF25F61B2BCBC400B46BA6 /* Frameworks */,
+				A7BF25F71B2BCBC400B46BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "26-MicroBlog";
+			productName = "26-MicroBlog";
+			productReference = A7BF25F91B2BCBC400B46BA6 /* 26-MicroBlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7BF26111B2BCBC400B46BA6 /* 26-MicroBlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BF261F1B2BCBC400B46BA6 /* Build configuration list for PBXNativeTarget "26-MicroBlogTests" */;
+			buildPhases = (
+				A7BF260E1B2BCBC400B46BA6 /* Sources */,
+				A7BF260F1B2BCBC400B46BA6 /* Frameworks */,
+				A7BF26101B2BCBC400B46BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7BF26141B2BCBC400B46BA6 /* PBXTargetDependency */,
+			);
+			name = "26-MicroBlogTests";
+			productName = "26-MicroBlogTests";
+			productReference = A7BF26121B2BCBC400B46BA6 /* 26-MicroBlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7BF25F11B2BCBC400B46BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Aixtuz;
+				TargetAttributes = {
+					A7BF25F81B2BCBC400B46BA6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A7BF26111B2BCBC400B46BA6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A7BF25F81B2BCBC400B46BA6;
+					};
+				};
+			};
+			buildConfigurationList = A7BF25F41B2BCBC400B46BA6 /* Build configuration list for PBXProject "26-MicroBlog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7BF25F01B2BCBC400B46BA6;
+			productRefGroup = A7BF25FA1B2BCBC400B46BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7BF25F81B2BCBC400B46BA6 /* 26-MicroBlog */,
+				A7BF26111B2BCBC400B46BA6 /* 26-MicroBlogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7BF25F71B2BCBC400B46BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BF26491B2BCE2300B46BA6 /* 926680527.jpeg in Resources */,
+				A7BF26461B2BCE2300B46BA6 /* 4934348604.jpeg in Resources */,
+				A7BF26451B2BCE2300B46BA6 /* 3461756566.jpeg in Resources */,
+				A7BF263F1B2BCE2300B46BA6 /* 1.jpeg in Resources */,
+				A7BF26411B2BCE2300B46BA6 /* 238221586.jpeg in Resources */,
+				A7BF26421B2BCE2300B46BA6 /* 424324.jpeg in Resources */,
+				A7BF26401B2BCE2300B46BA6 /* 1516159990.jpeg in Resources */,
+				A7BF26081B2BCBC400B46BA6 /* Main.storyboard in Resources */,
+				A7BF26481B2BCE2300B46BA6 /* 6289891986.jpeg in Resources */,
+				A7BF260D1B2BCBC400B46BA6 /* LaunchScreen.xib in Resources */,
+				A7BF26471B2BCE2300B46BA6 /* 603564546.jpeg in Resources */,
+				A7BF26431B2BCE2300B46BA6 /* 50.jpeg in Resources */,
+				A7BF260A1B2BCBC400B46BA6 /* Images.xcassets in Resources */,
+				A7BF26311B2BCD5500B46BA6 /* MicroBlogs.plist in Resources */,
+				A7BF26441B2BCE2300B46BA6 /* 7735164184.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BF26101B2BCBC400B46BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7BF25F51B2BCBC400B46BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BF26291B2BCC1A00B46BA6 /* MicroBlog.m in Sources */,
+				A7BF26051B2BCBC400B46BA6 /* TableViewController.m in Sources */,
+				A7BF26021B2BCBC400B46BA6 /* AppDelegate.m in Sources */,
+				A7BF262F1B2BCC4400B46BA6 /* MicroBlogViewCell.m in Sources */,
+				A7BF262C1B2BCC2600B46BA6 /* MicroBlogFrame.m in Sources */,
+				A7BF25FF1B2BCBC400B46BA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BF260E1B2BCBC400B46BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BF26191B2BCBC400B46BA6 /* _6_MicroBlogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7BF26141B2BCBC400B46BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7BF25F81B2BCBC400B46BA6 /* 26-MicroBlog */;
+			targetProxy = A7BF26131B2BCBC400B46BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7BF26061B2BCBC400B46BA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BF26071B2BCBC400B46BA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7BF260B1B2BCBC400B46BA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BF260C1B2BCBC400B46BA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7BF261A1B2BCBC400B46BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7BF261B1B2BCBC400B46BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7BF261D1B2BCBC400B46BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "26-MicroBlog/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7BF261E1B2BCBC400B46BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "26-MicroBlog/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7BF26201B2BCBC400B46BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "26-MicroBlogTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/26-MicroBlog.app/26-MicroBlog";
+			};
+			name = Debug;
+		};
+		A7BF26211B2BCBC400B46BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "26-MicroBlogTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/26-MicroBlog.app/26-MicroBlog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7BF25F41B2BCBC400B46BA6 /* Build configuration list for PBXProject "26-MicroBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BF261A1B2BCBC400B46BA6 /* Debug */,
+				A7BF261B1B2BCBC400B46BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BF261C1B2BCBC400B46BA6 /* Build configuration list for PBXNativeTarget "26-MicroBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BF261D1B2BCBC400B46BA6 /* Debug */,
+				A7BF261E1B2BCBC400B46BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7BF261F1B2BCBC400B46BA6 /* Build configuration list for PBXNativeTarget "26-MicroBlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BF26201B2BCBC400B46BA6 /* Debug */,
+				A7BF26211B2BCBC400B46BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7BF25F11B2BCBC400B46BA6 /* Project object */;
+}

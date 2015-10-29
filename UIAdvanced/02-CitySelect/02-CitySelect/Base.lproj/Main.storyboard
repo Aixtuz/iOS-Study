@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qph-y0-iTS">
+                                <rect key="frame" x="0.0" y="50" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="7Hq-RZ-d73"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="fWM-Hq-CHh"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SiF-BL-J7i">
+                                <rect key="frame" x="100" y="262" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhN-Fa-Eax">
+                                <rect key="frame" x="458" y="262" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SiF-BL-J7i" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="100" id="3aq-ih-2ZV"/>
+                            <constraint firstItem="SiF-BL-J7i" firstAttribute="top" secondItem="qph-y0-iTS" secondAttribute="bottom" constant="50" id="B2z-dN-Hjq"/>
+                            <constraint firstItem="qph-y0-iTS" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="J6W-Yh-6TE"/>
+                            <constraint firstAttribute="trailing" secondItem="DhN-Fa-Eax" secondAttribute="trailing" constant="100" id="R4L-QI-ff3"/>
+                            <constraint firstItem="qph-y0-iTS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="WEA-hW-M8r"/>
+                            <constraint firstAttribute="trailing" secondItem="qph-y0-iTS" secondAttribute="trailing" id="YcR-Lk-UvA"/>
+                            <constraint firstItem="DhN-Fa-Eax" firstAttribute="top" secondItem="qph-y0-iTS" secondAttribute="bottom" constant="50" id="hmX-W0-zQv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="city" destination="DhN-Fa-Eax" id="ADq-XX-4nt"/>
+                        <outlet property="province" destination="SiF-BL-J7i" id="65f-1I-Uip"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="453" y="315"/>
+        </scene>
+    </scenes>
+</document>

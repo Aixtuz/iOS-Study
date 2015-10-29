@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A722FD841B41386E00B1129D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A722FD831B41386E00B1129D /* main.m */; };
+		A722FD871B41386E00B1129D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A722FD861B41386E00B1129D /* AppDelegate.m */; };
+		A722FD8A1B41386E00B1129D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A722FD891B41386E00B1129D /* ViewController.m */; };
+		A722FD8D1B41386E00B1129D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A722FD8B1B41386E00B1129D /* Main.storyboard */; };
+		A722FD8F1B41386E00B1129D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A722FD8E1B41386E00B1129D /* Images.xcassets */; };
+		A722FD921B41386E00B1129D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A722FD901B41386E00B1129D /* LaunchScreen.xib */; };
+		A722FD9E1B41386E00B1129D /* _1_UIViewFollowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A722FD9D1B41386E00B1129D /* _1_UIViewFollowTests.m */; };
+		A7711AED1B41B3D100CA2216 /* MiniView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7711AEC1B41B3D100CA2216 /* MiniView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A722FD981B41386E00B1129D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A722FD761B41386E00B1129D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A722FD7D1B41386E00B1129D;
+			remoteInfo = "31-UIViewFollow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A722FD7E1B41386E00B1129D /* 31-UIViewFollow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "31-UIViewFollow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A722FD821B41386E00B1129D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A722FD831B41386E00B1129D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A722FD851B41386E00B1129D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A722FD861B41386E00B1129D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A722FD881B41386E00B1129D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A722FD891B41386E00B1129D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A722FD8C1B41386E00B1129D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A722FD8E1B41386E00B1129D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A722FD911B41386E00B1129D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A722FD971B41386E00B1129D /* 31-UIViewFollowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "31-UIViewFollowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A722FD9C1B41386E00B1129D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A722FD9D1B41386E00B1129D /* _1_UIViewFollowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_UIViewFollowTests.m; sourceTree = "<group>"; };
+		A7711AEB1B41B3D100CA2216 /* MiniView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniView.h; sourceTree = "<group>"; };
+		A7711AEC1B41B3D100CA2216 /* MiniView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A722FD7B1B41386E00B1129D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A722FD941B41386E00B1129D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A722FD751B41386E00B1129D = {
+			isa = PBXGroup;
+			children = (
+				A722FD801B41386E00B1129D /* 31-UIViewFollow */,
+				A722FD9A1B41386E00B1129D /* 31-UIViewFollowTests */,
+				A722FD7F1B41386E00B1129D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A722FD7F1B41386E00B1129D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A722FD7E1B41386E00B1129D /* 31-UIViewFollow.app */,
+				A722FD971B41386E00B1129D /* 31-UIViewFollowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A722FD801B41386E00B1129D /* 31-UIViewFollow */ = {
+			isa = PBXGroup;
+			children = (
+				A722FD851B41386E00B1129D /* AppDelegate.h */,
+				A722FD861B41386E00B1129D /* AppDelegate.m */,
+				A7711AEB1B41B3D100CA2216 /* MiniView.h */,
+				A7711AEC1B41B3D100CA2216 /* MiniView.m */,
+				A722FD881B41386E00B1129D /* ViewController.h */,
+				A722FD891B41386E00B1129D /* ViewController.m */,
+				A722FD8B1B41386E00B1129D /* Main.storyboard */,
+				A722FD8E1B41386E00B1129D /* Images.xcassets */,
+				A722FD901B41386E00B1129D /* LaunchScreen.xib */,
+				A722FD811B41386E00B1129D /* Supporting Files */,
+			);
+			path = "31-UIViewFollow";
+			sourceTree = "<group>";
+		};
+		A722FD811B41386E00B1129D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A722FD821B41386E00B1129D /* Info.plist */,
+				A722FD831B41386E00B1129D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A722FD9A1B41386E00B1129D /* 31-UIViewFollowTests */ = {
+			isa = PBXGroup;
+			children = (
+				A722FD9D1B41386E00B1129D /* _1_UIViewFollowTests.m */,
+				A722FD9B1B41386E00B1129D /* Supporting Files */,
+			);
+			path = "31-UIViewFollowTests";
+			sourceTree = "<group>";
+		};
+		A722FD9B1B41386E00B1129D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A722FD9C1B41386E00B1129D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A722FD7D1B41386E00B1129D /* 31-UIViewFollow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A722FDA11B41386E00B1129D /* Build configuration list for PBXNativeTarget "31-UIViewFollow" */;
+			buildPhases = (
+				A722FD7A1B41386E00B1129D /* Sources */,
+				A722FD7B1B41386E00B1129D /* Frameworks */,
+				A722FD7C1B41386E00B1129D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "31-UIViewFollow";
+			productName = "31-UIViewFollow";
+			productReference = A722FD7E1B41386E00B1129D /* 31-UIViewFollow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A722FD961B41386E00B1129D /* 31-UIViewFollowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A722FDA41B41386E00B1129D /* Build configuration list for PBXNativeTarget "31-UIViewFollowTests" */;
+			buildPhases = (
+				A722FD931B41386E00B1129D /* Sources */,
+				A722FD941B41386E00B1129D /* Frameworks */,
+				A722FD951B41386E00B1129D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A722FD991B41386E00B1129D /* PBXTargetDependency */,
+			);
+			name = "31-UIViewFollowTests";
+			productName = "31-UIViewFollowTests";
+			productReference = A722FD971B41386E00B1129D /* 31-UIViewFollowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A722FD761B41386E00B1129D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Aixtuz;
+				TargetAttributes = {
+					A722FD7D1B41386E00B1129D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A722FD961B41386E00B1129D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A722FD7D1B41386E00B1129D;
+					};
+				};
+			};
+			buildConfigurationList = A722FD791B41386E00B1129D /* Build configuration list for PBXProject "31-UIViewFollow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A722FD751B41386E00B1129D;
+			productRefGroup = A722FD7F1B41386E00B1129D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A722FD7D1B41386E00B1129D /* 31-UIViewFollow */,
+				A722FD961B41386E00B1129D /* 31-UIViewFollowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A722FD7C1B41386E00B1129D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A722FD8D1B41386E00B1129D /* Main.storyboard in Resources */,
+				A722FD921B41386E00B1129D /* LaunchScreen.xib in Resources */,
+				A722FD8F1B41386E00B1129D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A722FD951B41386E00B1129D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A722FD7A1B41386E00B1129D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A722FD8A1B41386E00B1129D /* ViewController.m in Sources */,
+				A7711AED1B41B3D100CA2216 /* MiniView.m in Sources */,
+				A722FD871B41386E00B1129D /* AppDelegate.m in Sources */,
+				A722FD841B41386E00B1129D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A722FD931B41386E00B1129D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A722FD9E1B41386E00B1129D /* _1_UIViewFollowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A722FD991B41386E00B1129D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A722FD7D1B41386E00B1129D /* 31-UIViewFollow */;
+			targetProxy = A722FD981B41386E00B1129D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A722FD8B1B41386E00B1129D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A722FD8C1B41386E00B1129D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A722FD901B41386E00B1129D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A722FD911B41386E00B1129D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A722FD9F1B41386E00B1129D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A722FDA01B41386E00B1129D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A722FDA21B41386E00B1129D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "31-UIViewFollow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A722FDA31B41386E00B1129D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "31-UIViewFollow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A722FDA51B41386E00B1129D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "31-UIViewFollowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/31-UIViewFollow.app/31-UIViewFollow";
+			};
+			name = Debug;
+		};
+		A722FDA61B41386E00B1129D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "31-UIViewFollowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/31-UIViewFollow.app/31-UIViewFollow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A722FD791B41386E00B1129D /* Build configuration list for PBXProject "31-UIViewFollow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A722FD9F1B41386E00B1129D /* Debug */,
+				A722FDA01B41386E00B1129D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A722FDA11B41386E00B1129D /* Build configuration list for PBXNativeTarget "31-UIViewFollow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A722FDA21B41386E00B1129D /* Debug */,
+				A722FDA31B41386E00B1129D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A722FDA41B41386E00B1129D /* Build configuration list for PBXNativeTarget "31-UIViewFollowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A722FDA51B41386E00B1129D /* Debug */,
+				A722FDA61B41386E00B1129D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A722FD761B41386E00B1129D /* Project object */;
+}

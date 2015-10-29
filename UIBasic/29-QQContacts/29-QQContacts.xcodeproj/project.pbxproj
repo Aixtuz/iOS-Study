@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70D55D61B2B9AEC00934A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A70D55D51B2B9AEC00934A66 /* main.m */; };
+		A70D55D91B2B9AEC00934A66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A70D55D81B2B9AEC00934A66 /* AppDelegate.m */; };
+		A70D55DC1B2B9AEC00934A66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70D55DB1B2B9AEC00934A66 /* ViewController.m */; };
+		A70D55DF1B2B9AEC00934A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70D55DD1B2B9AEC00934A66 /* Main.storyboard */; };
+		A70D55E11B2B9AEC00934A66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70D55E01B2B9AEC00934A66 /* Images.xcassets */; };
+		A70D55E41B2B9AEC00934A66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70D55E21B2B9AEC00934A66 /* LaunchScreen.xib */; };
+		A70D55F01B2B9AEC00934A66 /* _9_QQContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70D55EF1B2B9AEC00934A66 /* _9_QQContactsTests.m */; };
+		A70D56001B2BA37E00934A66 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = A70D55FF1B2BA37E00934A66 /* Contact.m */; };
+		A797CD221B2D1B3D0067217E /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A797CD211B2D1B3D0067217E /* HeaderView.m */; };
+		A7CB0D461B2BA60A00869616 /* Contacts.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7CB0D451B2BA60A00869616 /* Contacts.plist */; };
+		A7CB0D491B2BA74900869616 /* ContactGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CB0D481B2BA74900869616 /* ContactGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A70D55EA1B2B9AEC00934A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A70D55C81B2B9AEC00934A66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A70D55CF1B2B9AEC00934A66;
+			remoteInfo = "29-QQContacts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A70D55D01B2B9AEC00934A66 /* 29-QQContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "29-QQContacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70D55D41B2B9AEC00934A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A70D55D51B2B9AEC00934A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A70D55D71B2B9AEC00934A66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A70D55D81B2B9AEC00934A66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A70D55DA1B2B9AEC00934A66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A70D55DB1B2B9AEC00934A66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A70D55DE1B2B9AEC00934A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A70D55E01B2B9AEC00934A66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A70D55E31B2B9AEC00934A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A70D55E91B2B9AEC00934A66 /* 29-QQContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "29-QQContactsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70D55EE1B2B9AEC00934A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A70D55EF1B2B9AEC00934A66 /* _9_QQContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9_QQContactsTests.m; sourceTree = "<group>"; };
+		A70D55FE1B2BA37E00934A66 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		A70D55FF1B2BA37E00934A66 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		A797CD201B2D1B3D0067217E /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		A797CD211B2D1B3D0067217E /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		A7CB0D451B2BA60A00869616 /* Contacts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Contacts.plist; sourceTree = "<group>"; };
+		A7CB0D471B2BA74900869616 /* ContactGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactGroup.h; sourceTree = "<group>"; };
+		A7CB0D481B2BA74900869616 /* ContactGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A70D55CD1B2B9AEC00934A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70D55E61B2B9AEC00934A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70D55C71B2B9AEC00934A66 = {
+			isa = PBXGroup;
+			children = (
+				A70D55D21B2B9AEC00934A66 /* 29-QQContacts */,
+				A70D55EC1B2B9AEC00934A66 /* 29-QQContactsTests */,
+				A70D55D11B2B9AEC00934A66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A70D55D11B2B9AEC00934A66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A70D55D01B2B9AEC00934A66 /* 29-QQContacts.app */,
+				A70D55E91B2B9AEC00934A66 /* 29-QQContactsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A70D55D21B2B9AEC00934A66 /* 29-QQContacts */ = {
+			isa = PBXGroup;
+			children = (
+				A70D55F91B2B9AF300934A66 /* Classes */,
+				A70D55DD1B2B9AEC00934A66 /* Main.storyboard */,
+				A70D55E01B2B9AEC00934A66 /* Images.xcassets */,
+				A70D55E21B2B9AEC00934A66 /* LaunchScreen.xib */,
+				A70D55D31B2B9AEC00934A66 /* Supporting Files */,
+			);
+			path = "29-QQContacts";
+			sourceTree = "<group>";
+		};
+		A70D55D31B2B9AEC00934A66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB0D451B2BA60A00869616 /* Contacts.plist */,
+				A70D55D41B2B9AEC00934A66 /* Info.plist */,
+				A70D55D51B2B9AEC00934A66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A70D55EC1B2B9AEC00934A66 /* 29-QQContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A70D55EF1B2B9AEC00934A66 /* _9_QQContactsTests.m */,
+				A70D55ED1B2B9AEC00934A66 /* Supporting Files */,
+			);
+			path = "29-QQContactsTests";
+			sourceTree = "<group>";
+		};
+		A70D55ED1B2B9AEC00934A66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A70D55EE1B2B9AEC00934A66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A70D55F91B2B9AF300934A66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A70D55FD1B2B9B0800934A66 /* Other */,
+				A70D55FC1B2B9B0300934A66 /* Model */,
+				A70D55FB1B2B9AFE00934A66 /* View */,
+				A70D55FA1B2B9AF800934A66 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A70D55FA1B2B9AF800934A66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A70D55DA1B2B9AEC00934A66 /* ViewController.h */,
+				A70D55DB1B2B9AEC00934A66 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A70D55FB1B2B9AFE00934A66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A797CD201B2D1B3D0067217E /* HeaderView.h */,
+				A797CD211B2D1B3D0067217E /* HeaderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A70D55FC1B2B9B0300934A66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A70D55FE1B2BA37E00934A66 /* Contact.h */,
+				A70D55FF1B2BA37E00934A66 /* Contact.m */,
+				A7CB0D471B2BA74900869616 /* ContactGroup.h */,
+				A7CB0D481B2BA74900869616 /* ContactGroup.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A70D55FD1B2B9B0800934A66 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A70D55D71B2B9AEC00934A66 /* AppDelegate.h */,
+				A70D55D81B2B9AEC00934A66 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A70D55CF1B2B9AEC00934A66 /* 29-QQContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70D55F31B2B9AEC00934A66 /* Build configuration list for PBXNativeTarget "29-QQContacts" */;
+			buildPhases = (
+				A70D55CC1B2B9AEC00934A66 /* Sources */,
+				A70D55CD1B2B9AEC00934A66 /* Frameworks */,
+				A70D55CE1B2B9AEC00934A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "29-QQContacts";
+			productName = "29-QQContacts";
+			productReference = A70D55D01B2B9AEC00934A66 /* 29-QQContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A70D55E81B2B9AEC00934A66 /* 29-QQContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70D55F61B2B9AEC00934A66 /* Build configuration list for PBXNativeTarget "29-QQContactsTests" */;
+			buildPhases = (
+				A70D55E51B2B9AEC00934A66 /* Sources */,
+				A70D55E61B2B9AEC00934A66 /* Frameworks */,
+				A70D55E71B2B9AEC00934A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A70D55EB1B2B9AEC00934A66 /* PBXTargetDependency */,
+			);
+			name = "29-QQContactsTests";
+			productName = "29-QQContactsTests";
+			productReference = A70D55E91B2B9AEC00934A66 /* 29-QQContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70D55C81B2B9AEC00934A66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Aixtuz;
+				TargetAttributes = {
+					A70D55CF1B2B9AEC00934A66 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A70D55E81B2B9AEC00934A66 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A70D55CF1B2B9AEC00934A66;
+					};
+				};
+			};
+			buildConfigurationList = A70D55CB1B2B9AEC00934A66 /* Build configuration list for PBXProject "29-QQContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A70D55C71B2B9AEC00934A66;
+			productRefGroup = A70D55D11B2B9AEC00934A66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A70D55CF1B2B9AEC00934A66 /* 29-QQContacts */,
+				A70D55E81B2B9AEC00934A66 /* 29-QQContactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70D55CE1B2B9AEC00934A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70D55DF1B2B9AEC00934A66 /* Main.storyboard in Resources */,
+				A70D55E41B2B9AEC00934A66 /* LaunchScreen.xib in Resources */,
+				A70D55E11B2B9AEC00934A66 /* Images.xcassets in Resources */,
+				A7CB0D461B2BA60A00869616 /* Contacts.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70D55E71B2B9AEC00934A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70D55CC1B2B9AEC00934A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70D56001B2BA37E00934A66 /* Contact.m in Sources */,
+				A797CD221B2D1B3D0067217E /* HeaderView.m in Sources */,
+				A70D55DC1B2B9AEC00934A66 /* ViewController.m in Sources */,
+				A70D55D91B2B9AEC00934A66 /* AppDelegate.m in Sources */,
+				A70D55D61B2B9AEC00934A66 /* main.m in Sources */,
+				A7CB0D491B2BA74900869616 /* ContactGroup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70D55E51B2B9AEC00934A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70D55F01B2B9AEC00934A66 /* _9_QQContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A70D55EB1B2B9AEC00934A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A70D55CF1B2B9AEC00934A66 /* 29-QQContacts */;
+			targetProxy = A70D55EA1B2B9AEC00934A66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A70D55DD1B2B9AEC00934A66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A70D55DE1B2B9AEC00934A66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A70D55E21B2B9AEC00934A66 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A70D55E31B2B9AEC00934A66 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A70D55F11B2B9AEC00934A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A70D55F21B2B9AEC00934A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A70D55F41B2B9AEC00934A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "29-QQContacts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A70D55F51B2B9AEC00934A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "29-QQContacts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A70D55F71B2B9AEC00934A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "29-QQContactsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/29-QQContacts.app/29-QQContacts";
+			};
+			name = Debug;
+		};
+		A70D55F81B2B9AEC00934A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "29-QQContactsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/29-QQContacts.app/29-QQContacts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70D55CB1B2B9AEC00934A66 /* Build configuration list for PBXProject "29-QQContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70D55F11B2B9AEC00934A66 /* Debug */,
+				A70D55F21B2B9AEC00934A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70D55F31B2B9AEC00934A66 /* Build configuration list for PBXNativeTarget "29-QQContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70D55F41B2B9AEC00934A66 /* Debug */,
+				A70D55F51B2B9AEC00934A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70D55F61B2B9AEC00934A66 /* Build configuration list for PBXNativeTarget "29-QQContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70D55F71B2B9AEC00934A66 /* Debug */,
+				A70D55F81B2B9AEC00934A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70D55C81B2B9AEC00934A66 /* Project object */;
+}
